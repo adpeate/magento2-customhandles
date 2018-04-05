@@ -28,8 +28,9 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <referenceContainer name="page.top">
+        <attribute name="class" value="customer-logged-out"/>
+        <!--referenceContainer name="page.top">
             <block class="Fc\CustomHandles\Block\LoggedOut" template="logged-out.phtml"/>
-        </referenceContainer>
+        </referenceContainer-->
     </body>
 </page>
